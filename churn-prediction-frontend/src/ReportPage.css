@@ -1,0 +1,44 @@
+.report-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .report-header {
+    margin-bottom: 20px;
+  }
+  
+  .report-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .chart-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .chart-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .download-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: darkgreen;
+  }
+  

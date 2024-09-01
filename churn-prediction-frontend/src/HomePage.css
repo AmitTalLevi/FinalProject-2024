@@ -1,0 +1,62 @@
+.homepage-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-header {
+    margin-bottom: 20px;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .category-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .generate-report-button, .churn-prediction-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-report-button {
+    background-color: green;
+  }
+  
+  .generate-report-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .churn-prediction-button {
+    background-color: blue;
+  }
+  
+  .churn-prediction-button:hover {
+    background-color: darkblue;
+  }
+  
