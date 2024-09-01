@@ -122,6 +122,13 @@ train.csv
 - **Generate Reports**: Navigate to the "Generate Report" section to create a new churn prediction report.
 - **View Insights**: Explore various insights through interactive charts and visualizations.
 
+## In the future
+
+- **User Authentication:** Adding authentication and authorization features enhances data security and provides customized access for different users.
+- **Interactive Dashboards:** Interactive dashboards with drill-down capabilities allow users to explore data in detail and gain deeper insights.
+- **Customizable Reports:** Allowing users to tailor reports by selecting specific metrics, time periods, or data segments provides flexibility and ensures the reports are relevant to their needs.
+- **Scenario Simulations**: Users could simulate different scenarios (e.g., changing pricing, adding new features) to see potential impacts on churn and retention.
+  
 ## Data Structure
 - **Customer Data**: Includes attributes such as age, gender, account type, tenure, balance, transaction history, and service usage.
 - **Prediction Model**: Trained on historical customer data to predict churn probability.
