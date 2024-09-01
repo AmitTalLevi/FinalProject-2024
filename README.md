@@ -134,10 +134,8 @@ train.csv
 - **Prediction Model**: Trained on historical customer data to predict churn probability.
 
 ## DEMO - Screenshots
-<img width="763" alt="HomePage" src="https://github.com/user-attachments/assets/ac63b746-4b95-4cca-bf6a-9b14ca75acb7">
-<img width="875" alt="Prediction1" src="https://github.com/user-attachments/assets/e264fe58-9409-48f2-a0cd-d8e6105d0f71">
-<img width="887" alt="Prediction2" src="https://github.com/user-attachments/assets/23108c2d-c0fe-4f2b-9f1e-aaba2a59a740">
-<img width="900" alt="Reports" src="https://github.com/user-attachments/assets/65f77a16-5d9b-4e94-ac9f-64335d5c601e">
-<img width="356" alt="Insight" src="https://github.com/user-attachments/assets/6ad70efd-a31c-455e-8c75-964976fea253">
-
+<img width="763" alt="HomePage" src="https://github.com/user-attachments/assets/84cbcc3b-55eb-4f97-8dba-7a055769d032">
+<img width="951" alt="B" src="https://github.com/user-attachments/assets/3c7c5998-4017-44f1-84f5-e4abb51690d9">
+<img width="921" alt="C" src="https://github.com/user-attachments/assets/ef59daf1-7a67-4c80-ac1b-b4a023da6cdd">
+<img width="356" alt="Insight" src="https://github.com/user-attachments/assets/56d1eca8-d1e0-4aab-896e-fc4b0037dd3f">
 
