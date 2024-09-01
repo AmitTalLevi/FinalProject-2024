@@ -1,61 +1,130 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .left-panel, .right-panel {
-    width: 48%;
-  }
-  
-  .chart img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .variable-contributions, .target-statistics {
-    margin-top: 20px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input, .form-group select {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-  }
-  
-  .predict-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .predict-button:hover {
-    background-color: #0056b3;
-  }
-  
+/* src/ChurnPrediction.css */
+.churn-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5; /* Lighter background color */
+  color: #333333; /* Darker text color for better contrast */
+}
+
+.taskbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff; /* Lighter background color */
+  padding: 10px 0;
+  border-bottom: 2px solid #00aaff;
+}
+
+.taskbar-button {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #007bff; /* Lighter blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.taskbar-button:hover {
+  background-color: #0056b3; /* Darker blue color for hover effect */
+  transform: translateY(-2px);
+}
+
+.churn-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Lighter background color */
+}
+
+.churn-header h1 {
+  margin: 0;
+  color: #333333; /* Darker text color */
+}
+
+.churn-content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.left-panel {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #ffffff; /* Lighter background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.chart-section, .info-section {
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  width: 500px; /* Adjust width */
+  height: 500px; /* Adjust height */
+}
+
+.variable-contributions, .target-statistics {
+  background-color: #f9f9f9; /* Lighter background color */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.variable-contributions table, .target-statistics table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.variable-contributions th, .target-statistics th,
+.variable-contributions td, .target-statistics td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Lighter border color */
+}
+
+.variable-contributions th, .target-statistics th {
+  background-color: #f5f5f5; /* Lighter background color */
+}
+
+.predict-button {
+  padding: 12px 20px;
+  background-color: #00aaff; /* Lighter blue color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.predict-button:hover {
+  background-color: #0088cc; /* Darker blue color for hover effect */
+  transform: translateY(-2px);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333333; /* Darker text color */
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd; /* Lighter border color */
+  border-radius: 5px;
+  background-color: #ffffff; /* Lighter background color */
+  color: #333333; /* Darker text color */
+}
